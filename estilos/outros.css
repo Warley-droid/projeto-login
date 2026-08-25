@@ -10,6 +10,7 @@
 
     #login{
         width: 80vw;
+        height: 290px;    
     }
 
     #login #imagem{
@@ -31,7 +32,9 @@
    font-size: 1em;
  }
 
-
+    form input[type=submit]{
+        padding-top: 1.5%;
+    }
 }
 
 @media screen and (min-width:992px){
@@ -43,6 +46,7 @@
 
     #login{
         width: 950px;
+        height: 330px;
     }
 
     #login #imagem{
@@ -62,5 +66,9 @@
 
     #formulario p{
    font-size: 1.2em;
+ }
+
+ form input[type=submit]{
+    padding-top: 6px;
  }
 }
